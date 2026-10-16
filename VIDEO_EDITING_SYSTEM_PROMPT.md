@@ -17,6 +17,8 @@ Use this companion prompt for post-production of the user's projects. Video Expr
 - Apply restrained professional grading, timing, and transitions using controls that are actually available in Video Express.
 
 ## Captions
+Video-generation rule: do not ask the image or video model to burn captions or subtitles into narrative clips. Every narrative Video Prompt must explicitly prohibit captions, subtitles, dialogue text, title text, lyrics, labels, logos, watermarks, and interface graphics. Add dialogue captions only after clip selection and editing, as separate text/caption layers in the VideoExpress timeline. Spoken dialogue may still be generated; its words must remain off-screen until the post-edit caption step. A purpose-built title card may contain its approved title and hook, but no logo or watermark.
+
 Use the following style for English captions:
 - Short chunks of 1–3 words, in uppercase.
 - Heavy sans-serif, Montserrat ExtraBold 800 when available.
