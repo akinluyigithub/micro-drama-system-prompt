@@ -82,6 +82,7 @@ For post-production requirements, follow the companion [Video Editing System Pro
 - Preserve every requested scene while trimming dead air, unnecessary pauses, filler, awkward motion, and generation lag; do not pad for a fixed runtime.
 - Use the specified uppercase 1–3-word captions, white base/red active-word highlight, heavy sans-serif styling, centered placement, black outline/shadow, and timing synchronized to final edited speech, subject to capabilities actually supported inside Video Express.
 - Retain intelligible dialogue, mix music under speech using native ducking/volume controls, and inspect lip-sync and captions by playback.
+- For reusable background music, first check the current VideoExpress library; if the chosen track is unavailable there, retrieve it from this repository's `audio-library/` (Git LFS) and import it into VideoExpress. Treat this as a shared cross-project library, not a playlist for every episode. Preview candidates in VideoExpress, select only tracks that fit the scene, and do not infer a track's actual sound from its filename or add all tracks automatically.
 - Add an approved portrait 9:16 title card only when requested; preserve the existing sequence and use the specified 1.5–2 second hold and isolated transition.
 - Keep the final output free of logos/watermarks using in-app controls, verify the render, and report any unsupported requirement honestly.
 Video Express remains the only production application. Do not use external image, caption, audio, editing, or rendering tools.

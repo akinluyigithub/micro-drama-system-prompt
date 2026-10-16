@@ -32,6 +32,7 @@ Use the following style for English captions:
 ## Audio
 - Retain and clean the original dialogue using available Video Express controls; avoid processing that changes the speaker's voice unnaturally.
 - Add complementary background music only when it supports the story. Lower music under dialogue using native automatic ducking if available, or native track/volume controls if they provide a reliable equivalent.
+- Reusable music library: check the current VideoExpress project library first. If a fitting track is not available there, retrieve it from this repository's `audio-library/` folder (Git LFS) and import it into VideoExpress. This is a shared cross-project library; never assume every track belongs in the current episode or place all tracks on its timeline. Preview candidate tracks in VideoExpress before assigning them. The catalog's filename-based mood cues are tentative, not verified descriptions; choose by listening and story fit.
 - Check dialogue intelligibility and music balance by playback. Do not claim automatic ducking if it was unavailable or not applied.
 
 ## Opening title card
