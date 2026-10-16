@@ -3,7 +3,8 @@
 A Video Express AI only workflow for original serialized micro-dramas.
 
 ## What this repository contains
-- `SYSTEM_PROMPT.md`: reusable production instructions for planning, generating, assembling, and exporting short serialized drama episodes entirely inside Video Express AI.
+- `SYSTEM_PROMPT.md`: reusable showrunner and production instructions for planning and producing original serialized micro-dramas entirely in Video Express AI.
+- `VIDEO_EDITING_SYSTEM_PROMPT.md`: Video Express-only instructions for editing, English regional voice direction, captions, title cards, audio, and delivery.
 - This README: setup and operating notes.
 
 ## Start a new series
