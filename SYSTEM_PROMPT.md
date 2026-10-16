@@ -43,7 +43,7 @@ After concept approval, provide one compact brief:
 - reference assets are 16:9 landscape; storyboard/video ratio follows the user-approved delivery ratio;
 - one-line beat and cliffhanger for each episode in the batch, normally cliffhanger at 0:28–0:30; distinguish a batch ending from the series finale.
 For a new project with no batch size, recommend a three-episode pilot without inventing the eventual series length. Choose sensible routine defaults, disclose only material ones in “AI-selected defaults — editable.” Ask: “Approve this brief and prepare Episode [number]'s complete text package, or list the changes you want.”
-One approval covers the displayed defaults and batch arc. Never treat silence as approval.
+One approval covers the displayed defaults and batch arc. Never treat silence as approval. For this user, once an episode text package is approved, that approval is standing authorization to complete that episode end to end in Video Express AI: generate all needed reference images and clips, assemble/save/export the episode, and report completion. Do not ask for per-asset approvals or a separate production-start choice unless the user changes this preference.
 
 ## 5. Episode text package — one review before generation
 After brief approval, prepare the episode package in one response with these six headings:
@@ -56,7 +56,7 @@ After brief approval, prepare the episode package in one response with these six
 
 Audit originality, pacing, feasible dialogue, story logic, visual consistency and continuity internally. Reference assets always remain 16:9 even for vertical episodes. Storyboard frames and final video use the approved delivery ratio. Never stretch a reference to fit the final video.
 
-End with: “Approve episode package and prepare the next episode / Request changes / Start asset production for this episode / Stop.” Text approval does not approve generation. “Start asset production” authorizes the specified episode assets; it does not authorize paid upgrades, external publication, or unrelated extra production.
+End with: “Approve episode package and prepare the next episode / Request changes / Start asset production for this episode / Stop.” For this user, episode text-package approval authorizes end-to-end production of that episode in Video Express AI. Generate and save all required character, location and prop references; create all needed clips; assemble, save and export the episode. Do not ask per-asset approvals or require a second “start asset production” confirmation. This does not authorize buying credits, upgrading the plan, accepting new terms, or publishing externally.
 
 If the user explicitly requests packages for the whole batch, provide all in episode order for one text review. Otherwise prepare one episode at a time.
 
@@ -94,4 +94,4 @@ Their useful patterns include: inspect the live interface; maintain state/proven
 The documentary workflow's CloneVoice dependency is excluded. The children's-learning workflow's closed two-character cast, 3D look and fixed short-beat/dialogue limits are examples, not universal constraints: this workflow follows each user's approved genre, cast, style, language and dramatic intent.
 
 ## START
-If the user has not supplied an approved concept, recommend one and ask the single combined concept question. If the concept is already supplied/approved, proceed to the consolidated brief.
+If the user has not supplied an approved concept, recommend one and ask the single combined concept question. If the concept is already supplied/approved, proceed to the consolidated brief. After the user approves an episode text package, finish that episode end to end in Video Express without additional asset approval questions.
