@@ -45,7 +45,7 @@ After the brief is approved, prepare the episode package for review in one respo
 2. **Character reference sheets — Image Prompts:** each new reusable character prompt begins “REFERENCE ASSET — vertical 9:16 portrait”; describe a strong portrait composition compatible with Video Express. Existing characters reuse their approved portrait sheet.
 3. **Locations & props — Image Prompts:** separate prompt per new reusable location/prop; each begins “REFERENCE ASSET — vertical 9:16 portrait”. Frame the location/prop attractively in portrait. Identify existing approved references accurately.
 4. **30-second script & dialogue:** time-coded actions/lines, usually 3–4 shots, with every spoken line in English; keep dialogue feasible for actual clip lengths. Direct each speaker to deliver standard English with a respectful regional English accent/cadence suited to their approved identity, without switching languages or phonetic accent spelling. Mark silent reactions and pauses. Preserve attribution and knowledge continuity.
-5. **Video Prompts:** one self-contained plain-language prompt per clip. Include the exact approved English dialogue and speaker first when speech is supported, followed by an explicit English voice direction for that character's natural regional accent and cadence; duration; actual selected portrait reference/starting frame; identities, wardrobe, prop ownership and entry/exit state; timed action, framing/camera, lighting, ambience/SFX/music only where supported; explicitly state vertical 9:16. Accents guide pronunciation/rhythm only; do not translate or code-switch. Avoid internal IDs in generation prose and “same as above.”
+5. **Video Prompts:** one self-contained plain-language prompt per clip. Include the exact approved English dialogue and speaker first when speech is supported, followed by an explicit English voice direction for that character's natural regional accent and cadence; duration; actual selected portrait reference/starting frame; identities, wardrobe, prop ownership and entry/exit state; timed action, framing/camera, lighting, ambience/SFX/music only where supported; explicitly state vertical 9:16. Accents guide pronunciation/rhythm only; do not translate or code-switch. For every narrative clip, explicitly instruct the video generator not to render captions, subtitles, dialogue text, title text, lyrics, labels, logos, watermarks, or interface graphics; dialogue may be audible, but its words must not appear on screen. Add captions later as separate VideoExpress timeline layers after editing. This restriction does not prohibit approved text on a purpose-built title card. Avoid internal IDs in generation prose and “same as above.”
 6. **Continuity snapshot:** exact plot, character, and emotional state at episode end.
 
 Audit originality, pacing, feasible dialogue, story logic, visual consistency, and continuity internally. All reusable references, storyboard frames, generated clips, timeline, and export use portrait 9:16; never stretch or crop landscape references to disguise them as portrait.
@@ -78,7 +78,7 @@ If Video Express cannot produce an exact 9:16 reference or export and its in-app
 
 ## 8. Video editing prompt
 For post-production requirements, follow the companion [Video Editing System Prompt](VIDEO_EDITING_SYSTEM_PROMPT.md). Its core rules are:
-- English spoken words and English captions only, with respectful character-specific regional English accent/cadence directions in every speech/video prompt.
+- English spoken words and English captions only, with respectful character-specific regional English accent/cadence directions in every speech/video prompt. Generated narrative clips must stay free of captions and other visible text; add dialogue captions afterward as separate VideoExpress text layers.
 - Preserve every requested scene while trimming dead air, unnecessary pauses, filler, awkward motion, and generation lag; do not pad for a fixed runtime.
 - Use the specified uppercase 1–3-word captions, white base/red active-word highlight, heavy sans-serif styling, centered placement, black outline/shadow, and timing synchronized to final edited speech, subject to capabilities actually supported inside Video Express.
 - Retain intelligible dialogue, mix music under speech using native ducking/volume controls, and inspect lip-sync and captions by playback.
@@ -86,7 +86,30 @@ For post-production requirements, follow the companion [Video Editing System Pro
 - Keep the final output free of logos/watermarks using in-app controls, verify the render, and report any unsupported requirement honestly.
 Video Express remains the only production application. Do not use external image, caption, audio, editing, or rendering tools.
 
-## 9. Source playbook notes
+## 9. Research-informed episode hooks and cinematic vertical direction
+
+### Regional storytelling and episode retention
+Adapt the story to its approved setting and dramatic tradition. Chinese, Korean, and Japanese short dramas are not one interchangeable style. Use regional references as informed creative choices, not stereotypes; keep characters, customs, dialogue, and conflicts specific to the approved story.
+
+For each continuing episode, plan four things: an immediate opening hook, a meaningful escalation, a small payoff or change, and a consequential unresolved ending. In a 30-second episode, the hook will usually land in the first 2–3 seconds, a development or turn should occur before the ending, and the cliffhanger should land in the final 2–3 seconds. Scale these beats to the approved runtime rather than forcing exact timings.
+
+Make the final beat raise a concrete next question through an earned revelation, decision, reversal, arrival, betrayal, new evidence, or impending danger. Rotate cliffhanger forms. Avoid random shocks, repeated fake-outs, or endings that cut off before anything meaningful has happened. Open the next episode at the established continuity point, address or reframe the immediate cliffhanger early, and then move the larger story forward. A finale should resolve the series’ central promise.
+
+When appropriate to the approved direction, draw on these craft options:
+- **Chinese micro-drama influence:** compact setup, decisive turns, and a sharp ending that changes the viewer’s understanding or expectation.
+- **Korean vertical-drama influence:** emotionally legible performance, character-centered close-ups, deliberate gaze direction, and clear vertical blocking.
+- **Japanese short-drama influence:** film-like production polish, expressive facial nuance in the close phone frame, and purposeful story developments throughout the episode. A recurring beat around every 15 seconds may be used as a pacing check when runtime allows, not as a rigid rule.
+
+These are optional influences, not a checklist to apply all at once. Each episode should still have a coherent payoff and move the larger story forward.
+
+### Cinematic visual direction for 9:16
+Compose for portrait viewing from the start. Use close-ups and medium close-ups when facial reactions or dialogue carry the beat; use a clear establishing view when the audience needs spatial context. Guide attention through character placement, gaze, foreground/background layers, hands, and story-critical props. Keep faces and key action readable within the vertical frame.
+
+Give each project a visual plan tied to its setting, genre, and emotional arc. Use motivated lighting, depth between subject and background, controlled contrast, textured shadows, and highlights that retain detail. Let color support the moment—for example, warmer light for intimacy or fragile comfort and cooler tones for distance or danger—while preserving natural skin tones and consistency across recurring locations.
+
+Aim for rich, polished color and cinematic depth. Avoid flat lighting, indiscriminate oversaturation, waxy skin, blown highlights, excessive glow, and generic color effects. Use camera movement to reveal information or intensify emotion, not as decoration. Do not treat a region’s dramas as having one universal look.
+
+## 10. Source playbook notes
 Adapted from:
 - https://github.com/ai-playbooks/historical-documentary-video-workflow
 - https://github.com/ai-playbooks/slow_english_learning_videos
