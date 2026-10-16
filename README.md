@@ -11,9 +11,8 @@ A Video Express AI only workflow for original serialized micro-dramas.
 2. Confirm or revise the premise.
 3. Review and approve one consolidated project brief (cast, visual treatment, language, episode batch and cliffhangers).
 4. Review each episode's complete text package before image/video generation.
-5. Explicitly authorize asset generation. Generation can use account credits; the agent should state the planned scope before it starts.
-6. Review generated assets and approve, request changes, or reject them one at a time.
-7. Ask to assemble and export the approved episode in Video Express.
+5. Approve the episode text package. For this user, that approval authorizes end-to-end production in Video Express AI: all needed reference images and clips, timeline assembly, save, and export. No per-asset check-ins are required.
+6. The agent completes the approved episode in Video Express and reports the export status.
 
 ## Production principles
 - Video Express AI is the only image, video, speech, audio, timeline, and export application in this workflow. Do not use CloneVoice, external image/video generators, APIs, or other editing services.
