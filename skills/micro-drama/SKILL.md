@@ -15,7 +15,7 @@ Use this skill when the user says **Start Micro Drama** (including capitalizatio
 
 ## Start the project
 
-- If the user supplies a story with the trigger, use it. Otherwise, offer up to three concise original concepts, recommend one, and finish with an easy numbered option for **“I have my own story.”** Help shape a rough story idea without a long questionnaire.
+- If the user supplies a story with the trigger, use it directly. Otherwise, open with an inviting line and give one detailed lead recommendation with a working title and labeled Protagonist, Goal, Opposition, Secret, Stakes, Visual Hook, and Why this works. Then show a short lettered list of alternative drama types and include another story in the lead style. Finish with a numbered choice board: 1 approve lead, 2 + letter choose alternative, 3 another story in lead style, 4 I have my own story. Keep trend claims evidence-based; do not invent popularity metrics. Help shape a rough story idea without a long questionnaire.
 - Once the title is established, create a dedicated folder named after the project inside the current workspace. Keep that project's scripts, assets, prompt book, and continuity notes there. Reuse it when continuing the same project; don't overwrite unrelated project folders.
 - Follow the system prompt's two checkpoints: concept, then consolidated brief including the image-generation route. Keep answers and follow-up questions easy to respond to with numbered choices.
 - Once an episode package is approved, follow the standing authorization and complete routine production in VideoExpress without per-asset approval requests. Ask only for a genuine blocker or material change.
