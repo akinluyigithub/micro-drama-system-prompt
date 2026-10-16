@@ -15,6 +15,7 @@ Use this skill when the user says **Start Micro Drama** (including capitalizatio
 
 ## Start the project
 
+- At the same time as trend research starts, open or focus the Codex built-in browser at `https://app.videoexpress.ai/`. Reuse a matching open tab or open the URL in the in-app browser, verify the app loads and the signed-in workspace is available, then leave it ready. Do not generate assets before normal approval; if login/access is requested, stop and report the gate.
 - Before any concept recommendation or refinement, run the system prompt's live trend scan. Search at least three accessible areas, prioritizing TikTok, YouTube Shorts, and Instagram Reels; target 60–90 seconds and stop by two minutes. Cite sources, separate observed signals from interpretation, and disclose access gaps. Use up to two agents only if they improve coverage/speed; otherwise browse directly. Then preserve a user-supplied story or provide the structured recommendation menu; never invent viral metrics.
 - Once the title is established, create a dedicated folder named after the project inside the current workspace. Keep that project's scripts, assets, prompt book, and continuity notes there. Reuse it when continuing the same project; don't overwrite unrelated project folders.
 - Follow the system prompt's two checkpoints: concept, then consolidated brief including the image-generation route. Keep answers and follow-up questions easy to respond to with numbered choices.
