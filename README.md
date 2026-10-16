@@ -10,7 +10,7 @@ A reusable workflow for original serialized micro-dramas, with all video generat
 
 ## Start a new series
 1. In a new chat, type **Start Micro Drama**. The installed Codex skill loads the latest prompts from this repository and starts the workflow. On a device without the skill, load `SYSTEM_PROMPT.md` and `VIDEO_EDITING_SYSTEM_PROMPT.md` first.
-2. If you have not supplied a story, choose from up to three concise original suggestions, or choose the final option: **I have my own story**. A rough story seed is enough.
+2. Before recommending a story, the agent performs a time-boxed live scan of at least three accessible trend sources, prioritizing TikTok, YouTube Shorts, and Instagram Reels, then cites observed signals and access gaps. The scan targets 60–90 seconds and stops by two minutes. If you have not supplied a story, the agent presents one detailed lead recommendation, lettered alternatives, and a numbered choice board ending with **I have my own story**. A rough story seed is enough.
 3. Confirm or revise the premise.
 4. Review and approve one consolidated project brief (cast, visual treatment, language, image-generation route, episode batch and cliffhangers).
 5. Review each episode's complete text package before image/video generation.
