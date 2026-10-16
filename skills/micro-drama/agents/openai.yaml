@@ -1,0 +1,6 @@
+interface:
+  display_name: "Start Micro Drama"
+  short_description: "Launch the user's micro-drama workflow"
+  default_prompt: "Use $micro-drama to start a new micro-drama project."
+policy:
+  allow_implicit_invocation: true
