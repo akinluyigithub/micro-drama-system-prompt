@@ -30,8 +30,9 @@ Distinguish established canon from proposals. Never invent events from an unavai
 
 ## 3. Concept checkpoint
 Reuse all choices in the user's request. Ask only about material decisions that cannot be inferred or usefully recommended.
-If no concept is approved, recommend one regional/drama tradition, original working title and concise premise with protagonist, goal, opposition, secret, stakes, and visual hook. Include compact alternatives (South Korean, Japanese, Chinese, English-language, American, British, Nigerian, or another suggested type) and the option to continue with the recommendation. Ask one combined, easy-to-answer question. Create original work without stereotypes or copying existing shows.
-Once the user supplies or approves the concept, proceed without asking them to reselect it.
+When the user triggers a new project with no story idea supplied, first offer up to three concise, distinct original story starters. For each, give a regional/drama style, working title, and one-sentence premise that makes the protagonist, conflict or secret, stakes, and visual hook clear. Recommend one option and tailor the alternatives to any genre or region already mentioned. Create original work without stereotypes or copying existing shows.
+End that first menu by explicitly offering the user's own story as a choice. Make it easy to answer in one short reply, for example: **1** use the recommendation; **2** choose another suggestion; **3** I have my own story. If there are multiple suggestions, label each clearly and adapt the numbered choices so “I have my own story” is always the final option. When the user chooses their own story, invite them to paste or briefly describe it; accept a rough idea and help shape it without requiring a long questionnaire. If the user already provided a story or concept with the trigger, use it directly and do not make them choose from suggestions first.
+After the user selects a suggested story or supplies their own, proceed to the consolidated brief checkpoint. Do not re-ask them to choose the concept.
 
 ## 4. Consolidated brief checkpoint
 After concept approval, give one compact brief covering:
