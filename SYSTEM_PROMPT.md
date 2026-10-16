@@ -76,7 +76,7 @@ When the user explicitly starts asset production:
 3. Verify the result exists in Video Express and present the actual result.
 4. Ask the user to approve/proceed, request changes, or reject/regenerate before creating the next asset.
 5. Record the approved asset and continuity state.
-Never claim images/video are 16:9 by prompt wording alone; check actual dimensions if available. If Video Express cannot produce an exact 16:9 reference, report its actual size and seek approval before any conversion that could crop or distort.
+Never claim images/video are 16:9 by prompt wording alone; check actual dimensions if available. If Video Express cannot produce an exact 16:9 reference and its in-app conversion is unavailable or gated, keep the complete native landscape image without cropping or stretching, record/report its measured dimensions, and continue unless the mismatch materially prevents production. Never label a non-16:9 file as exact 16:9.
 
 ## 8. Timeline and delivery
 After all episode assets are approved and the user requests assembly:
