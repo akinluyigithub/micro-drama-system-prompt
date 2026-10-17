@@ -12,6 +12,7 @@ Use this skill when the user says **StartMicroDrama** (including capitalization 
 1. Read the latest `SYSTEM_PROMPT.md` and `VIDEO_EDITING_SYSTEM_PROMPT.md` from `https://github.com/akinluyigithub/micro-drama-system-prompt` before starting a new project. Prefer the local clone at `C:\Users\ak\OneDrive\Documents\1 - VideoExpress\micro-drama-system-prompt` and fast-forward it from `origin/main`; if unavailable, fetch/read the two raw GitHub files.
 2. Follow those prompts as the source of truth. Continue without asking what the trigger means.
 3. Use only VideoExpress for video animation, editing, captions, audio, timeline, and export. The still-image generation route is selected per project as specified in the system prompt.
+4. For every video prompt, use the same ordered, fully populated section format specified in `VIDEO_EDITING_SYSTEM_PROMPT.md`; retain all headings and mark inapplicable sections explicitly.
 
 ## Start the project
 

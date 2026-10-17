@@ -8,7 +8,51 @@ Always use VideoExpress **Create with AI → Create Video From Prompt** for narr
 ## Production-grade prompt detail
 Write image prompts and video prompts with professional production specificity. A reference-image prompt should define subject identity or object/location design, distinguishing details and continuity anchors, portrait composition, subject scale and pose, camera height/angle/perspective, focus/depth, lighting direction/quality, palette, environment layers/materials, mood through observable visual choices, and exclusions/artifacts to avoid. Make each reusable reference a clear, coherent design target rather than a list of generic adjectives.
 
-Every video prompt must stand on its own and specify the exact approved reference/starting frame, clip duration and vertical 9:16, identity/wardrobe/location/prop continuity, initial and final states, exact dialogue and speaker/voice direction where applicable, and a time-coded beat sheet that covers the entire clip. For each time range, state shot size and composition, camera height/angle/perspective, concrete camera movement and pace, subject action/performance/eyeline, focus target or rack focus, lighting/color behavior, and supported dialogue or sound timing. Give a deliberate final frame that supports the next cut. Keep the action, dialogue, camera instructions, and clip length feasible for the live generation controls. Do not promise exact rendered UI or legible on-screen text, and do not prescribe conflicting simultaneous movements. Detail should improve execution and continuity, not add gratuitous complexity.
+Every video prompt must stand on its own and use the exact ordered heading format below. Keep every heading in every prompt; write “Not applicable — …” where a section does not apply so the structure remains consistent. Replace all bracketed guidance with project-specific instructions. Do not omit a section just because its answer is short.
+
+```text
+PROJECT: [Approved project title]
+CLIP: [Episode/clip number — concise scene name]
+DURATION: [Exact generation duration in seconds]
+FORMAT: Vertical 9:16
+STYLE: [Approved visual genre and photographic treatment]
+SOURCE IMAGE: [Exact approved still/first frame by filename or library name; state whether it is the exact first frame and source of visual truth. If no still is supplied, identify the approved references and starting composition.]
+
+SCENE INTENT
+[One or two sentences stating the dramatic purpose, emotional change, and what this clip must communicate.]
+
+FIRST-FRAME AND CONTINUITY LOCK
+[Describe the opening frame and lock all relevant character identities, ages, faces, hair, builds, costumes, accessories, pose, eyelines, geography, screen direction, lighting, props, prop ownership, and initial/final prop states. Identify who is present and who must remain silent/backgrounded. State essential exclusions.]
+
+TIME AND COUNTDOWN
+[State the story-clock/countdown beginning and ending values, direction/rate, and where it appears only when essential and supported. Otherwise write: “Not applicable — no visible story clock or countdown in this clip.” Never depend on a generative model for precise legible UI/text; if exact numerals are story-critical and generation cannot reliably render them, specify a VideoExpress-native overlay/compositing step and verify it in playback.]
+
+SECOND-BY-SECOND ACTION
+0.0–[time] seconds:
+[Opening hold/action; shot size and composition; subject action and micro-performance; eyeline; camera height/angle/lens; focus target; camera movement and pace; lighting/exposure; dialogue and sound timing.]
+
+[Continue with contiguous, non-overlapping time ranges that cover the full duration with no gaps. For every range, specify the visible action and performance, framing, camera movement (or explicitly locked camera), focus behavior, dialogue/sound timing, and any lighting change. Give each line enough time to be spoken naturally.]
+
+[Final time range ending at the exact clip duration]:
+[Specify the exact final composition, character/prop state, camera stop/hold, and cut/exit state that supports the next edit.]
+
+CAMERA AND IMAGE QUALITY
+[State one-shot or cut structure; camera height, angle, lens perspective, framing, movement direction/speed/easing and stabilization; focus/depth of field; composition and safe area; exposure, color, light direction/quality; texture, motion realism, and continuity constraints. Every movement must be feasible and motivated.]
+
+AUDIO AND SOUND DESIGN
+[Give timecoded ambience, music, and sound-effect instructions with relative prominence. Keep background voices indistinct unless explicitly scripted. If audio generation is unavailable or not requested, say so and identify only the in-scope VideoExpress audio workflow.]
+
+DIALOGUE
+[List only the exact spoken lines, with speaker names, exact wording, delivery/voice direction, and intended time ranges. State that lines are the only speech, must not be paraphrased or overlapped, and must sync to the correct speaker. If silent, write: “None — silent clip; no speech or narration.”]
+
+AUDIO MIX
+[Specify speech intelligibility, dialogue/music/ambience balance, perspective, stereo width, and clean starts/ends. If no audio is generated in this clip, state that explicitly. Do not claim controls or a mix that the selected VideoExpress generation mode cannot perform.]
+
+NEGATIVE PROMPT
+[List concrete forbidden continuity breaks, unwanted actions, identity/wardrobe/prop changes, camera artifacts, visual defects, extra people/limbs, text/captions/logos/watermarks, and unwanted sounds. Include the required clean-picture-only instruction verbatim for narrative video prompts.]
+```
+
+Use one beat per meaningful performance or camera change; simple clips can use fewer beats, but the time ranges must still cover the entire duration. For every time range, state shot size and composition, camera height/angle/perspective, concrete camera movement and pace, subject action/performance/eyeline, focus target or rack focus, lighting/color behavior, and supported dialogue or sound timing. Give a deliberate final frame that supports the next cut. Keep the action, dialogue, camera instructions, and clip length feasible for the live generation controls. Do not promise exact rendered UI or legible on-screen text, and do not prescribe conflicting simultaneous movements. Detail should improve execution and continuity, not add gratuitous complexity.
 
 ## Language and performance
 - Spoken words and captions are English for every regional or national drama style. A Korean, Japanese, Chinese, or Nigerian story may retain its approved characters, setting, cultural context, and genre while the characters speak English.

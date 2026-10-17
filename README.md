@@ -20,6 +20,7 @@ A reusable workflow for original serialized micro-dramas, with all video generat
 ## Production principles
 - VideoExpress AI is always used for video animation, editing, speech/audio, timeline, and export. For still images, the user chooses ChatGPT Advanced Image Model or Video Express AI once per project. No other image/video generators or external editing services are used.
 - Use vertical 9:16 for all episode references, storyboard images, clips, timeline, and final exports unless the user explicitly changes that preference. Verify dimensions in the app or file metadata.
+- Every generated video prompt uses the same ordered, fully populated template in `VIDEO_EDITING_SYSTEM_PROMPT.md`, from project/clip metadata through scene intent, continuity, timecoded action, camera/image quality, audio, dialogue, mix, and negative prompt. Keep all headings even for silent or non-clock scenes; mark sections not applicable rather than changing the format.
 - Do not publish or share a video unless explicitly requested.
 - Verify controls and limits from the live Video Express interface. Do not assume source-repository settings still match the current application.
 - Create a separate project folder in the current workspace named after each approved project title. Keep story canon, approved references, episode state and prompt book there so later episodes preserve continuity.
