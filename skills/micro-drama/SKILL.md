@@ -1,11 +1,11 @@
 ---
 name: micro-drama
-description: Start or continue the user's serialized micro-drama workflow in VideoExpress. Trigger when the user says “Start Micro Drama,” asks to begin a micro-drama project, or resumes one; load the user's canonical GitHub system prompts first. Keep VideoExpress as the video production app.
+description: Start or continue the user's serialized micro-drama workflow in VideoExpress. Trigger when the user says “StartMicroDrama,” asks to begin a micro-drama project, or resumes one; load the user's canonical GitHub system prompts first. Keep VideoExpress as the video production app.
 ---
 
 # Micro Drama Startup
 
-Use this skill when the user says **Start Micro Drama** (including capitalization or punctuation variations), or clearly asks to start/resume the user's micro-drama workflow.
+Use this skill when the user says **StartMicroDrama** (including capitalization or punctuation variations; internal whitespace is significant), or clearly asks to start/resume the user's micro-drama workflow.
 
 ## Load the canonical rules
 

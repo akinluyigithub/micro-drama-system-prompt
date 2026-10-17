@@ -1,6 +1,6 @@
 # Micro-drama workspace trigger
 
-When the user says **Start Micro Drama** (case-insensitive, punctuation-insensitive), begin the user's micro-drama workflow immediately. Do not ask what the trigger means.
+When the user says **StartMicroDrama** (case-insensitive, punctuation-insensitive; internal whitespace is significant), begin the user's micro-drama workflow immediately. Do not ask what the trigger means.
 
 Before starting, read the latest `SYSTEM_PROMPT.md` and `VIDEO_EDITING_SYSTEM_PROMPT.md` at this repository root. Fast-forward this clone from `origin/main` when possible; if the clone is unavailable, read the canonical files at https://github.com/akinluyigithub/micro-drama-system-prompt.
 
